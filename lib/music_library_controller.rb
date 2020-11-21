@@ -58,6 +58,8 @@ class MusicLibraryController
       list_genres if user_input == 'list genres'
       list_songs_by_artist if user_input == 'list artist'
       list_songs_by_genre if user_input == 'list genre'
+      play_song if user_input == 'play song'
+      
       user_input = gets.strip
     end
     
