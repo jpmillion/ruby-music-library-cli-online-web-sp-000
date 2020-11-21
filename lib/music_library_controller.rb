@@ -53,12 +53,12 @@ class MusicLibraryController
     puts "What would you like to do?"
     user_input = gets.strip
     until user_input == 'exit' do
-      user_input = gets.strip
       list_songs if user_input == 'list songs'
       list_artists if user_input == 'list artists'
       list_genres if user_input == 'list genres'
       list_songs_by_artist if user_input == 'list artist'
       list_songs_by_genre if user_input == 'list genre'
+      user_input = gets.strip
     end
     
   end
