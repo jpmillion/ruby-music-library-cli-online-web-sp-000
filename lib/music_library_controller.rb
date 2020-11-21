@@ -54,6 +54,7 @@ class MusicLibraryController
     user_input = gets.strip
     until user_input == 'exit' do
       user_input = gets.strip
+      list_songs if user_input == 'list songs'
     end
     
   end
